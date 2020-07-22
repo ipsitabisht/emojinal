@@ -16,16 +16,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkL-hb-Qj6">
-                                <rect key="frame" x="169.5" y="520" width="75" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <rect key="frame" x="155" y="557" width="108" height="132"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🥺"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YHg-AS-otK"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ga-9p-TRl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qt5-Bt-kbZ">
-                                <rect key="frame" x="169.5" y="330" width="75" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <rect key="frame" x="155" y="220" width="108" height="132"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="😍"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQz-2a-BLQ"/>
@@ -34,16 +34,14 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="qt5-Bt-kbZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="286" id="8ON-x9-GUb"/>
-                            <constraint firstItem="rkL-hb-Qj6" firstAttribute="top" secondItem="qt5-Bt-kbZ" secondAttribute="bottom" constant="94" id="FNF-pZ-TcM"/>
-                            <constraint firstItem="qt5-Bt-kbZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hb7-ZZ-tQM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rkL-hb-Qj6" secondAttribute="trailing" constant="169.5" id="Jn0-2p-Qyn"/>
-                            <constraint firstItem="qt5-Bt-kbZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169.5" id="Phf-bE-Mub"/>
-                            <constraint firstItem="rkL-hb-Qj6" firstAttribute="top" secondItem="qt5-Bt-kbZ" secondAttribute="bottom" constant="94" id="VnE-QE-Vuj"/>
-                            <constraint firstItem="rkL-hb-Qj6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c12-id-Kds"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rkL-hb-Qj6" secondAttribute="bottom" constant="246" id="d15-7D-mPk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qt5-Bt-kbZ" secondAttribute="trailing" constant="169.5" id="mvA-3V-yD1"/>
-                            <constraint firstItem="rkL-hb-Qj6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169.5" id="rUF-id-1kp"/>
+                            <constraint firstItem="rkL-hb-Qj6" firstAttribute="top" secondItem="qt5-Bt-kbZ" secondAttribute="bottom" constant="205" id="BFb-Pn-R46"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rkL-hb-Qj6" secondAttribute="trailing" constant="151" id="BKo-wD-1XY"/>
+                            <constraint firstItem="rkL-hb-Qj6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="DaK-c4-qPO"/>
+                            <constraint firstItem="qt5-Bt-kbZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="S6R-IE-RPH"/>
+                            <constraint firstItem="qt5-Bt-kbZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="176" id="dFL-Jv-cOF"/>
+                            <constraint firstItem="rkL-hb-Qj6" firstAttribute="top" secondItem="qt5-Bt-kbZ" secondAttribute="bottom" constant="205" id="g5o-bI-co5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qt5-Bt-kbZ" secondAttribute="trailing" constant="151" id="jYs-ki-5pI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rkL-hb-Qj6" secondAttribute="bottom" constant="173" id="m4a-ms-4hs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
